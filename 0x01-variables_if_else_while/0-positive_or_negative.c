@@ -3,11 +3,8 @@
 #include <stdio.h>
 
 /**
- *Main - entry point
- *
- *Description: 'print whether a random number is positive, negative or zero'
- *
- *Return: always 0(success)
+ *Main - print whether a random number is positive, negative or zero
+ *Return: 0
  **/
 
 int main(void)
