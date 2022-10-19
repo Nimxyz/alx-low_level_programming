@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * Main - entry point
+ *Main - entry point
  *
- * Description: print whether a random number is positive, negative or zero
+ *Description: 'print whether a random number is positive, negative or zero'
  *
- * Return: always 0(success)
+ *Return: always 0(success)
  **/
 
 int main(void)
@@ -22,7 +22,8 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	else(n < 0)
-		; printf("%d is negative\n", n);
+	else
+		printf("%d is negative\n", n);
+
 	return (0);
 }
